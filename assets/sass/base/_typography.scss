@@ -1,0 +1,89 @@
+body {
+    font-family: $font-family;
+    line-height: 2.2rem;
+}
+p {
+    font-size: 1.35rem;
+    font-weight: 400;
+}
+
+.fs {
+    &-headline {
+        font-size: 3.6rem;
+        font-weight: 500;
+    }
+    &-title {
+        font-size: 2.9rem;
+        font-weight: 500;
+        &-sm {
+            font-size: 2rem;
+        }
+    }
+    &-sub-headline {
+        font-size: 2rem;
+    }
+    &-primary {
+        font-size: 1.5rem;
+    }
+    &-default {
+        font-size: 1.35rem;
+    }
+    &-secondary {
+        font-size: 12pt;
+        &-sm {
+            font-size: 10pt;
+        }
+    }
+}
+.fw {
+    &-300 {
+        font-weight: 399;
+    }
+}
+
+.lh {
+    &-reset {
+        line-height: 1.5;
+    }
+    &-default {
+        line-height: 2.2rem;
+    }
+}
+
+// Media
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    p {
+        font-size: 1.2rem;
+    }
+    .fs {
+        &-headline {
+            font-size: 2.5rem;
+        }
+        &-title {
+            font-size: 2rem;
+            font-weight: 500;
+            &-sm {
+                font-size: 1.9rem;
+            }
+        }
+        &-sub-headline {
+            font-size: 1.5rem;
+        }
+        &-primary {
+            font-size: 1.35rem;
+        }
+        &-default {
+            font-size: 1.2rem;
+        }
+        &-secondary {
+            font-size: 12pt;
+            &-sm {
+                font-size: 10pt;
+            }
+        }
+    }
+}

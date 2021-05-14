@@ -1,0 +1,67 @@
+.home {
+    &-search {
+        background: url("../img/kopaspace-header.png");
+        background-size: cover;
+        background-position: top center;
+        &-text {
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        .form-floating > .form-control,
+        .form-floating > .form-select {
+            font-size: small;
+        }
+
+        &__body {
+            min-height: 90vh;
+        }
+    }
+}
+
+// Media
+
+@media (max-width: 575.98px) {
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .home {
+        &-search {
+            .form-floating > .form-control,
+            .form-floating > .form-select {
+                font-size: unset;
+            }
+            &__body {
+                .fs-headline {
+                    font-size: 2.5rem;
+                    font-weight: bold;
+                }
+                min-height: 80vh;
+                padding-top: $site-size-sm;
+                padding-bottom: $site-size-sm;
+            }
+        }
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .home {
+        &-search {
+            &__body {
+                min-height: 60vh;
+            }
+        }
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    .home {
+        &-search {
+            &__body {
+                min-height: 90vh;
+            }
+        }
+    }
+}

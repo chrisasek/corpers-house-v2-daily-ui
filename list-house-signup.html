@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corpers House</title>
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+
+    <header class="bg-white shadow-sm py-1">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light justify-content-between align-items-center">
+                <a class="navbar-brand text-site-accent fw-bold" href="#">KOPASPACE</a>
+                <button class="navbar-toggler border-0 me-3 px-1" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse w-auto pt-3 pt-md-0" id="navbarNav">
+                    <ul class="navbar-nav align-items-md-center">
+                        <li class="nav-item me-md-3 active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item me-md-3 active">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item me-md-3">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                        <li class="nav-item me-md-4 mb-4 mb-md-0">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn bg-site-accent" href="list-house.html">List an Apartment</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="list-house-signup py-site__section__sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p class="mb-0 text-site-accent">List Your Room</p>
+                    <h2 class="fs-title">Personal Information</h2>
+                    <p class="mb-site">Please tell us a bit about yourself so we can be able to reach out to you
+                        whenever neccesary</p>
+                </div>
+                <div class="col-md-12 mb-4">
+                    <form action="list-house-form.html" class="listing-form">
+                        <div class="row">
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="firstname" id="first_name" class="form-control form-control-lg"
+                                    placeholder="John">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="last_name" id="last_name" class="form-control form-control-lg"
+                                    placeholder="Surname">
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <input type="text" name="phone" id="phone" class="form-control form-control-lg"
+                                    placeholder="Phone">
+                                <p class="mb-0 small help">This is how you will be contacted by
+                                    interested corpers, WhatsApp number Prefered</p>
+                            </div>
+                            <div class="col-md-6 mb-4">
+                                <input type="email" name="email" id="email" class="form-control form-control-lg"
+                                    placeholder="Email">
+                                <p class="mb-0 small help">This is for us to tell you thank you and give
+                                    you update about your listing</p>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn bg-site-accent mt-4">Proceed to next step</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="">
+        <div class="section bg-site-primary py-site__section__sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 d-md-flex justify-content-between text-center text-md-left">
+                        <nav class="nav links">
+                            <a href="" class="nav-link">Terms</a>
+                            <a href="" class="nav-link">Policy</a>
+                        </nav>
+
+                        <div class="">
+                            <a href="" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 text-center py-2">
+                        <p class="text-white mb-1">&copy; 2021, All right reserved Kopaspace</p>
+                        <p class="small mb-0 text-white">Powered with <i class="fa fa-heart text-danger"></i> by
+                            Oniontabs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

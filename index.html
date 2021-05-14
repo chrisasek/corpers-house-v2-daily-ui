@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corpers House</title>
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css">
+    <script src="assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.min.css">
+</head>
+
+<body>
+
+    <header class="bg-white shadow-sm py-1">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light justify-content-between align-items-center">
+                <a class="navbar-brand text-site-accent fw-bold" href="#">KOPASPACE</a>
+                <button class="navbar-toggler border-0 me-3 px-1" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse w-auto pt-3 pt-md-0" id="navbarNav">
+                    <ul class="navbar-nav align-items-md-center">
+                        <li class="nav-item me-md-3 active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item me-md-3 active">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item me-md-3">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                        <li class="nav-item me-md-4 mb-4 mb-md-0">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="btn bg-site-accent" href="list-house.html">List an Apartment</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="bg-site-primary home-search intro">
+        <div class="container">
+            <div class="row home-search__body align-items-center">
+                <div class="col-md-12">
+                    <div class="col-md-11 col-lg-7 mb-5 text-white">
+                        <h1 class="fs-headline mb-4">Settle down in your place of service with ease:</h1>
+                        <p class="home-search-text mb-0">Rent rooms listed by corps members who will be passing out soon
+                            and leaving town</p>
+                    </div>
+                    <div class="col-md-12 col-lg-9 bg-white">
+                        <form action="search.html">
+                            <div class="row">
+                                <div class="col-md-3 mb-3 mb-md-0">
+                                    <div class="form-floating">
+                                        <select name="category" id="category" class="form-control">
+                                            <option class="default">Select type of apartment</option>
+                                            <option value="">Single Room</option>
+                                            <option value="">Self Contain</option>
+                                            <option value="">1 Bed Room</option>
+                                            <option value="">2 Bed Room</option>
+                                        </select>
+                                        <label for="category">Room Type</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3 mb-md-0">
+                                    <div class="form-floating">
+                                        <select name="state" id="state" class="form-control">
+                                            <option class="default">Select your state of service</option>
+                                            <option value="">Akwa Ibom</option>
+                                        </select>
+                                        <label for="state">State</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-3 mb-md-0">
+                                    <div class="form-floating">
+                                        <select name="lga" id="lga" class="form-control">
+                                            <option class="default">Select your LGA of service</option>
+                                            <option value="">Uyo</option>
+                                        </select>
+                                        <label for="lga">LGA</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <button type="submit" class="btn rounded-0 w-100 h-100 bg-site-accent">Find</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-browse py-site__section__sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-11 col-lg-9 mb-site">
+                    <h2 class="fs-title">Browse accomodation according to your taste and need.</h2>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <a href="search.html">
+                        <card class="card border-0 rounded-0 bg-transparent ">
+                            <img src="assets/img/single-room.png" alt="House" class="card-img-top br-img">
+                            <div class="card-body px-0">
+                                <p class="fs-default mb-0 text-dark">Self Contain</p>
+                            </div>
+                        </card>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <a href="search.html">
+                        <card class="card border-0 rounded-0 bg-transparent ">
+                            <img src="assets/img/self-contain.png" alt="House" class="card-img-top br-img">
+                            <div class="card-body px-0">
+                                <p class="fs-default mb-0 text-dark">Self Contain</p>
+                            </div>
+                        </card>
+                    </a>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                    <a href="search.html">
+                        <card class="card border-0 rounded-0 bg-transparent ">
+                            <img src="assets/img/flat.png" alt="House" class="card-img-top br-img">
+                            <div class="card-body px-0">
+                                <p class="fs-default mb-0 text-dark">1-2 Bedroom Flat</p>
+                            </div>
+                        </card>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-items pb-site__section__sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row align-items-center bg-site-dark br-default mx-0">
+                        <div class="col-md-6">
+                            <div class="card border-0 bg-transparent">
+                                <div class="card-body">
+                                    <h2 class="fs-title mb-4">Escape the stress of having to buy everything you need
+                                        from
+                                        scratch</h2>
+                                    <p class="fs-default fw-300 mb-5">Most of the rooms listed here comes with certain
+                                        household
+                                        utilities
+                                        that you need like beed, cooking utensils, gadgets, etc. you can get these
+                                        stuffs at a give away price</p>
+
+                                    <a href="search.html" class="btn bg-site-accent">Browse rooms</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 bg-dark px-0 br-default order-first order-md-last">
+                            <img src="assets/img/household-items.jpg" alt="" class="img-fluid  br-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-heros pb-site__section__sm">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row align-items-center bg-site-primary text-white br-default mx-0">
+                        <div class="col-md-6">
+                            <div class="card border-0 bg-transparent">
+                                <div class="card-body">
+                                    <h2 class="fs-title mb-4">All these are made possible by corp members like you</h2>
+                                    <p class="fs-default fw-300 mb-5">Help a corp member skip the stress of finding
+                                        accomodation today by listing your room as you pass out. This will help you sell
+                                        some of your stuffs that you won't be carrying with you.</p>
+
+                                    <a href="list-house.html" class="btn bg-site-accent">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 bg-dark px-0 br-default order-first">
+                            <img src="assets/img/hero-kopas.jpg" alt="" class="img-fluid  br-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="">
+        <div class="section bg-site-primary py-site__section__sm">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 d-md-flex justify-content-between text-center text-md-left">
+                        <nav class="nav flex-column flex-md-row mx-auto mx-md-0 links">
+                            <a href="" class="nav-link">Terms</a>
+                            <a href="" class="nav-link">Policy</a>
+                        </nav>
+
+                        <div class="mx-auto mx-md-0">
+                            <a href="" target="_blank"><i class="fa fa-facebook-f"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12 text-center py-2">
+                        <p class="text-white mb-1">&copy; 2021, All right reserved Kopaspace</p>
+                        <p class="small mb-0 text-white">Powered with <i class="fa fa-heart text-danger"></i> by
+                            Oniontabs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

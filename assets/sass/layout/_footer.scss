@@ -1,0 +1,14 @@
+footer {
+    .links {
+        a {
+            color: $color-white;
+            font-weight: bold;
+            &:hover {
+                color: $color-accent;
+            }
+            &.active {
+                color: $color-accent;
+            }
+        }
+    }
+}

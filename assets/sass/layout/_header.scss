@@ -1,0 +1,26 @@
+.hero {
+    // &-home {
+    //     background: url("../../media/images/hero.jpg");
+    //     background-position: top right;
+    //     background-repeat: no-repeat;
+    //     background-size: cover;
+    //     background-attachment: scroll;
+    // }
+    .hero-overlay {
+        background: transparent;
+    }
+    &-image {
+        font-size: 15rem;
+    }
+    &-body {
+        min-height: 420px;
+        &-heading {
+            font-size: 4rem;
+            font-weight: bold;
+        }
+        &-text {
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+    }
+}

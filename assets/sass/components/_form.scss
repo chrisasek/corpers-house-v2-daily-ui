@@ -1,0 +1,62 @@
+.form {
+    &-floating {
+        label {
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        select {
+            option.default {
+                font-size: small;
+            }
+        }
+    }
+    &-control {
+        border: 1px solid $color-light;
+        border-radius: 0;
+        transition: all 0.2s;
+        &:focus {
+            border: 0;
+            color: $color-dark;
+            font-weight: 600;
+            background: $color-light;
+            border-bottom: 1px solid $color-accent;
+            box-shadow: unset;
+        }
+    }
+}
+
+.listing-form {
+    p.help {
+        color: $color-light-text;
+        line-height: 1.5;
+    }
+    .form {
+        &-control, &-select {
+            border: 0;
+            background: $color-gray-light;
+            &:focus {
+                color: $color-dark;
+                font-weight: 600;
+                background: $color-light;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                border-bottom: 1px solid $color-accent;
+                box-shadow: unset;
+            }
+        }
+        &-check-input {
+            width: 1.5em;
+            height: 1.5em;
+            margin-top: 0;
+        }
+    }
+}
+// .custom-select:focus {
+//     border-color: $color-accent;
+//     box-shadow: 0 0 0 0.2rem rgba($color-accent, 0.5);
+// }
+
+label.error {
+    font-weight: small;
+}
